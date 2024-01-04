@@ -1,7 +1,8 @@
 repo_name: gordonpn/text-iq-devops
 report_id: 5b69f0797ef78aec13cbbea7e8f27c57
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T13:06:55+00:00'
+timestamp: '2024-01-04T14:53:57+00:00'
 requested_by: gordonpn
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/gordonpn/text-iq-devops
   detection_source: Repo Metadata
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gordonpn/text-iq-devops
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -35,6 +38,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gordonpn/text-iq-devops
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -44,18 +48,20 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/gordonpn/text-iq-devops/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Gordon Pham-Nguyen
   last_updated_on: 2020-10-07 21:27:09.000000000 Z
 - name: boto3
   description: The AWS SDK for Python
-  package_url: https://pypi.org/boto3
+  package_url: https://pypi.org/project/boto3
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/gordonpn/text-iq-devops/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Gordon Pham-Nguyen
   last_updated_on: 2020-10-07 21:27:09.000000000 Z
